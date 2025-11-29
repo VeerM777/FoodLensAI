@@ -1,0 +1,423 @@
+# ===================================
+# FoodLens AI - Comprehensive .gitignore
+# ===================================
+
+# ============ FLUTTER / DART ============
+# Build outputs
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+*.lock
+pubspec.lock
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+*.config.dart
+coverage/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+*.idea
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.flutter-plugins
+.flutter-plugins-dependencies
+generated_plugin_registrant.dart
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+*.jks
+
+# iOS/XCode related
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/ephemeral/
+
+# Linux
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+**/linux/flutter/ephemeral/
+
+# Windows
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/generated_plugin_registrant.h
+**/windows/flutter/ephemeral/
+
+# Web
+**/web/flutter_bootstrap.js
+**/web/flutter_service_worker.js
+
+# ============ PYTHON / BACKEND ============
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+.Python
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ============ ENVIRONMENT & SECRETS ============
+.env
+.env.local
+.env.*.local
+*.env
+.env.production
+.env.development
+.env.test
+config.ini
+secrets.json
+credentials.json
+service-account-key.json
+
+# API Keys (be explicit)
+*_API_KEY*
+*api_key*
+*apikey*
+*.pem
+*.key
+
+# ============ DATABASE ============
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+foodlens.db
+test.db
+local.db
+
+# ============ IDE / EDITOR ============
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============ OS SPECIFIC ============
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============ LOGS & TEMP FILES ============
+*.log
+logs/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm
+.eslintcache
+.node_repl_history
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+temp/
+tmp/
+temp_images/
+
+# ============ DOCUMENTATION ARTIFACTS ============
+# Exclude debugging and summary docs created during development
+*_SUMMARY.md
+*_GUIDE.md
+*_REQUIREMENTS.md
+*_FIX.md
+*_FIXES.md
+*_INTEGRATION.md
+BACKEND_API_REQUIREMENTS.md
+HEALTH_DATA_INTEGRATION.md
+HEALTH_SCORING_FIX_SUMMARY.md
+INTEGRATION_TESTING_GUIDE.md
+PRODUCT_DETECTION_FIX.md
+TESTING_GUIDE.md
+BARCODE_OCR_FIXES_SUMMARY.md
+FIXES_IMPLEMENTED.md
+
+# Keep only essential docs
+!README.md
+!LICENSE
+!CONTRIBUTING.md
+!CHANGELOG.md
+
+# ============ PLATFORM TOOLS ============
+platform-tools-latest-windows/
+platform-tools/
+android-sdk/
+flutter-sdk/
+
+# ============ ASSETS & MEDIA ============
+# Large media files (keep necessary icons/images only)
+# Uncomment if you have large assets you don't want to commit
+# *.mp4
+# *.mov
+# *.avi
+# *.wmv
+# *.flv
+
+# ============ DEPENDENCIES ============
+# Node modules (if you use any Node tooling)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Gradle (Android)
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# ============ TESTS ============
+# Test coverage
+coverage/
+test-results/
+.nyc_output/
+
+# ============ FIREBASE ============
+# Firebase cache
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+.firebaserc
+
+# Don't ignore firebase_options.dart in production
+# but exclude during development if it contains sensitive data
+# lib/firebase_options.dart
+
+# ============ MISCELLANEOUS ============
+# Crash logs
+crashlytics-build.properties
+fabric.properties
+
+# Mission control
+.mission-control/
+
+# Local History
+.history/
+
+# Profiling data
+*.prof
+
+# Core dumps
+core
+core.*
+
+# Screenshots for testing (not for production)
+screenshots/
+test_screenshots/
+
+# ============ CUSTOM PROJECT FILES ============
+# Add any project-specific files below
+
+# Batch/shell scripts for local development
+start_foodlens.bat
+start_foodlens.ps1
+kill_port_8000.bat
+kill_port_8000.ps1
+
+# Keep essential scripts (if any)
+# !deploy.sh
+# !setup.sh

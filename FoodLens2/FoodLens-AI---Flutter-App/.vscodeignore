@@ -1,0 +1,82 @@
+# CRITICAL: VS Code ignore file for crash prevention
+# Reduces indexing load and prevents "window not responding" crashes
+
+# Build directories - Enhanced exclusion
+build/
+.dart_tool/
+.packages
+.pub-cache/
+pubspec.lock
+
+# Platform specific - Enhanced exclusion
+android/.gradle/
+android/app/build/
+ios/.symlinks/
+ios/Pods/
+ios/build/
+web/build/
+linux/build/
+macos/build/
+windows/build/
+
+# Flutter generated files - Enhanced
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+*.g.dart
+*.mocks.dart
+*.config.dart
+
+# Coverage and test reports - Enhanced
+coverage/
+test/coverage/
+.nyc_output/
+
+# Logs and temporary files - Enhanced
+*.log
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+
+# IDE and editor files - Enhanced
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/launch.json
+.vscode/tasks.json
+
+# Version control - Enhanced
+.git/
+.gitignore
+
+# OS generated files - Enhanced
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Additional exclusions for crash prevention
+tmp/
+temp/
+node_modules/
+bower_components/
+yarn.lock
+package-lock.json
+.analysis_options_imports
+
+# CRITICAL: GitHub Copilot specific exclusions for VS Code crash prevention
+.github/
+.copilot/
+*.copilot.log
+.vscode/extensions/
+.vscode/extensions.json
+.vscode/ipch/
+copilot_logs/
+.copilot_cache/
+telemetry/

@@ -1,0 +1,7 @@
+# Flutter/Dart memory optimizations
+
+# Reduce memory for Dart compilation
+--old_gen_heap_size=1024
+
+# Limit concurrent operations
+--optimization-level=O1

@@ -1,0 +1,94 @@
+name: foodlens_ai
+description: A premium Flutter app for food transparency and health insights powered by Agentic AI.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  
+  # Navigation
+  go_router: ^12.1.3
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^9.0.0
+  
+  # Network & API
+  http: ^1.1.2
+  dio: ^5.4.0
+  
+  # UI & Animations
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.2.0+1
+  lottie: ^2.7.0
+  shimmer: ^3.0.0
+  flutter_staggered_animations: ^1.1.1
+  
+  # Images & Media
+  image_picker: ^1.0.4
+  cached_network_image: ^3.3.0
+  photo_view: ^0.14.0
+  
+  # Camera & Scanning
+  mobile_scanner: ^3.5.6
+  camera: ^0.10.5+5
+  
+  # Authentication
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.3.1
+  google_sign_in: ^6.1.6
+  
+  # Device Features
+  device_info_plus: ^9.1.1
+  package_info_plus: ^4.2.0
+  connectivity_plus: ^5.0.2
+  permission_handler: ^11.1.0
+  local_auth: ^2.1.7
+  # vibration: ^1.8.4  # Temporarily disabled due to build issues
+  
+  # Utils
+  intl: ^0.18.1
+  uuid: ^4.2.1
+  path_provider: ^2.1.1
+  url_launcher: ^6.2.2
+  share_plus: ^7.2.1
+  
+  # Icons
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icons/app_icon.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+  
+  # Using system fonts for now - add custom fonts later
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: assets/fonts/Inter-Light.ttf
+  #         weight: 300

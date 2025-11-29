@@ -1,0 +1,264 @@
+<<<<<<< HEAD
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code - Keep essential config, exclude temp files
+# Keep .vscode/ folder for project-specific settings
+.vscode/sftp.json
+.vscode/ipch/
+.vscode/.ropeproject/
+.vscode/settings.json.bak
+.vscode/c_cpp_properties.json.bak
+.vscode/*.log
+.vscode/ftp-sync.json
+.vscode/.browse.VC.db
+.vscode/.browse.VC.db-*
+.vscode/compileCommands_default.json
+.vscode/configurationCache.log
+.vscode/*.vsix
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Additional exclusions for performance optimization
+**/coverage/
+**/.nyc_output/
+**/test/coverage/
+
+# Temporary files that can cause VS Code hangs
+*.tmp
+*.temp
+.cache/
+.vscode/.browse.c_cpp.db*
+.vscode/compileCommands_*.json
+
+# OS specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Windows
+Desktop.ini
+Thumbs.db
+ehthumbs.db
+*.stackdump
+
+# Memory dumps and crash files
+*.dmp
+*.mdmp
+core
+*.core
+*.pid
+*.seed
+*.pid.lock
+*.log
+*.hprof
+
+# Platform specific build exclusions
+/linux/build/
+/macos/build/
+/windows/build/
+
+# VS Code workspace settings (optional - can be committed for team use)
+# *.code-workspace
+
+# Backend Python files (if backend is in separate repo)
+**/__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.env
+.venv
+env/
+venv/
+*.db
+*.sqlite
+temp_images/
+
+# Test images and documentation files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+!assets/**
+!android/app/src/main/res/**
+!ios/Runner/Assets.xcassets/**
+
+# Documentation markdown files (temporary/testing)
+BACKEND_API_REQUIREMENTS.md
+HEALTH_DATA_INTEGRATION.md
+INTEGRATION_TESTING_GUIDE.md
+
+# Helper scripts
+start_foodlens.bat
+start_foodlens.ps1
+kill_port_*.bat
+kill_port_*.ps1
+=======
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+foodlens.db
+
+# Temporary files
+temp_images/
+*.tmp
+*.temp
+*.log
+
+# Test files
+test_*.py
+*_test.py
+debug_*.py
+check_*.py
+fix_*.py
+direct_test.py
+final_test.py
+hackathon_fix.py
+
+# Documentation (if temporary)
+*_FIX.md
+*_FIXES.md
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Package managers
+pip-log.txt
+pip-delete-this-directory.txt
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# AI/ML model files (if large)
+*.h5
+*.pkl
+*.pth
+*.onnx
+
+# Large data files
+*.csv
+*.xlsx
+*.json
+!requirements.txt
+
+# Image files (except sample images if needed)
+*.jpg
+*.jpeg
+*.png
+*.gif
+# Uncomment if you want to keep sample images:
+# !sample_images/*.png
+
+# Barcode/OCR cache
+barcode_cache/
+ocr_cache/
+>>>>>>> 3f36d76d522e9cc38f214b8eb55fe5ba1db4b7d3
