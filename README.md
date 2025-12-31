@@ -659,14 +659,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Contact & Support
-
-- **GitHub Issues**: [Report bugs or request features](https://github.com/VeerM777/FoodLensAI/issues)
-- **Email**: support@foodlensai.com *(if applicable)*
-- **Documentation**: [Wiki](https://github.com/VeerM777/FoodLensAI/wiki)
-
----
-
 ## ⚡ Quick Start Commands
 
 ```bash
@@ -692,4 +684,5 @@ flutter run
 ⭐ Star us on GitHub if you find this project helpful!
 
 </div>
+
 
