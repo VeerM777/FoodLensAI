@@ -953,11 +953,6 @@ We welcome contributions to FoodLens AI! Whether you're fixing bugs, adding feat
 - 📔 **[Material 3 Guidelines](https://m3.material.io)** - Design system
 - 📖 **[Backend Integration](BACKEND_INTEGRATION.md)** - API specifications
 
-### Community & Help
-
-- 💬 **Issues**: Report bugs or request features in [GitHub Issues](https://github.com/mohitkattungal/FoodLens-AI---Flutter-App/issues)
-- 🔧 **Discussions**: Join discussions in [GitHub Discussions](https://github.com/mohitkattungal/FoodLens-AI---Flutter-App/discussions)
-- 📧 **Contact**: Reach out to the maintainers
 
 ### Useful Resources
 
@@ -965,12 +960,6 @@ We welcome contributions to FoodLens AI! Whether you're fixing bugs, adding feat
 - [Pub.dev Packages](https://pub.dev)
 - [Flutter Community](https://flutter.dev/community)
 - [Stack Overflow - Flutter](https://stackoverflow.com/questions/tagged/flutter)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -1094,7 +1083,7 @@ The application uses LangGraph to orchestrate the analysis workflow:
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
->>>>>>> 3f36d76d522e9cc38f214b8eb55fe5ba1db4b7d3
+
+
+
